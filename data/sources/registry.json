@@ -1,0 +1,156 @@
+{
+  "working_language": "english",
+  "control_languages": ["greek", "hebrew"],
+  "parked_languages": ["aramaic", "syriac", "chaldean"],
+  "notes": {
+    "english": "Working language. Collide public-domain English Bibles verse by verse. Apparent error in English is a pointer, not the verdict.",
+    "greek_hebrew": "Control languages. Used to classify an English collision as inner-English style, source-text fork (TR/CT, MT/LXX/DSS), or canon.",
+    "chaldean": "In older English (KJV headings, lexicons) 'Chaldee' usually means Biblical Aramaic (Daniel, Ezra) and sometimes Targum. It is not a third Semitic original beside Hebrew and Aramaic. Parked until the Aramaic desk is open."
+  },
+  "sources": [
+    {
+      "id": "wycliffe",
+      "label": "Wycliffe",
+      "lang": "english",
+      "kind": "english-bible",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "Late medieval English; Vulgate-shaped. Residue often Latin, not Greek."
+    },
+    {
+      "id": "tyndale",
+      "label": "Tyndale (NT / Pentateuch)",
+      "lang": "english",
+      "kind": "english-bible",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "First printed English from Greek/Hebrew. Ancestor of Geneva and KJV diction."
+    },
+    {
+      "id": "coverdale",
+      "label": "Coverdale 1535",
+      "lang": "english",
+      "kind": "english-bible",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "First complete printed English Bible; mixes Tyndale, Latin, German."
+    },
+    {
+      "id": "geneva",
+      "label": "Geneva 1560 / 1599",
+      "lang": "english",
+      "kind": "english-bible",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "The Reformation English Bible. Notes are residue of how readers inhabited the text."
+    },
+    {
+      "id": "kjv-1769",
+      "label": "KJV 1769 (Blayney)",
+      "lang": "english",
+      "kind": "english-bible",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "The default English 'how it has been' for Protestant print. OT from MT, NT from Textus Receptus. 1611 Apocrypha is canon residue."
+    },
+    {
+      "id": "douay-challoner",
+      "label": "Douay-Rheims (Challoner)",
+      "lang": "english",
+      "kind": "english-bible",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "English of the Vulgate. Collides with KJV wherever Latin and Hebrew/Greek part ways."
+    },
+    {
+      "id": "webster-1833",
+      "label": "Webster 1833",
+      "lang": "english",
+      "kind": "english-bible",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "KJV diction with American regularization. Useful as a near-KJV control."
+    },
+    {
+      "id": "ylt",
+      "label": "Young's Literal Translation",
+      "lang": "english",
+      "kind": "english-bible",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "English that tries to keep Hebrew/Greek tense and word order. Good for spotting smoothing in other English."
+    },
+    {
+      "id": "asv-1901",
+      "label": "American Standard Version 1901",
+      "lang": "english",
+      "kind": "english-bible",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "Early critical-text English. The hinge between KJV-type and modern Protestant Bibles."
+    },
+    {
+      "id": "jps-1917",
+      "label": "JPS Tanakh 1917",
+      "lang": "english",
+      "kind": "english-bible",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "Jewish English of the Masoretic OT. No NT; no Christian recension at the English layer."
+    },
+    {
+      "id": "brenton-lxx",
+      "label": "Brenton English Septuagint",
+      "lang": "english",
+      "kind": "english-bible",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "English of the Greek OT. The other Old Testament in English. Primary residue hunter vs KJV/JPS."
+    },
+    {
+      "id": "web",
+      "label": "World English Bible",
+      "lang": "english",
+      "kind": "english-bible",
+      "status": "wanted",
+      "license": "public-domain-ish",
+      "role": "Modern public-domain-ish English. Use for 'how it is now' without copyright walls."
+    },
+    {
+      "id": "swete-lxx",
+      "label": "Swete Septuagint",
+      "lang": "greek",
+      "kind": "greek",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "Greek OT control. Prefer diplomatic PD editions over copyrighted Rahlfs-Hanhart for the corpus itself."
+    },
+    {
+      "id": "wh-1881",
+      "label": "Westcott-Hort 1881",
+      "lang": "greek",
+      "kind": "greek",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "The Greek NT that pulled English off the Textus Receptus. Pair with KJV to see NT residue."
+    },
+    {
+      "id": "tischendorf",
+      "label": "Tischendorf 8th edition",
+      "lang": "greek",
+      "kind": "greek",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "19th-century critical Greek NT with apparatus."
+    },
+    {
+      "id": "wlc",
+      "label": "Westminster Leningrad Codex (consonantal)",
+      "lang": "hebrew",
+      "kind": "hebrew",
+      "status": "wanted",
+      "license": "check-on-intake",
+      "role": "Diplomatic Masoretic control. Morphology layers may be licensed; consonants are the usual public working text."
+    }
+  ]
+}

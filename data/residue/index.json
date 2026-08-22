@@ -1,0 +1,88 @@
+{
+  "title": "Residue index",
+  "definition": "Places where English Bibles, or the witnesses behind them, disagree in a way that looks like something used to be there.",
+  "items": [
+    {
+      "id": "deut-32-8",
+      "ref": "Deuteronomy 32:8",
+      "class": "substitution",
+      "status": "atlas",
+      "passage": "deut-32-8-9",
+      "english_collision": "KJV / JPS: 'sons of Israel' or 'Israel's numbers'. Brenton: 'angels of God'. Modern eclectic English sometimes: 'sons of God' / 'gods'.",
+      "hypothesis": "English is tracking a Hebrew fork (ישראל vs אלהים), not a translator whim.",
+      "control": "hebrew+greek",
+      "confidence": "high"
+    },
+    {
+      "id": "deut-32-43",
+      "ref": "Deuteronomy 32:43",
+      "class": "omission",
+      "status": "atlas",
+      "passage": "deut-32-43",
+      "english_collision": "KJV: nations rejoice; no gods. Brenton / some modern English: heavens and sons/angels of God worship. Hebrews 1:6 still quotes the longer Greek line.",
+      "hypothesis": "Masoretic ending is shorter. Residue survives in Greek English and in the New Testament citation.",
+      "control": "hebrew+greek",
+      "confidence": "high"
+    },
+    {
+      "id": "mark-16-ending",
+      "ref": "Mark 16:9–20",
+      "class": "addition",
+      "status": "queued",
+      "english_collision": "KJV prints the longer ending. ASV and later critical English often bracket or footnote it. This is the reverse of the Deuteronomy pattern: here the older English is longer.",
+      "hypothesis": "English is tracking Greek manuscript streams (Byzantine/TR vs early Alexandrian copies), not a modern conspiracy.",
+      "control": "greek",
+      "confidence": "high"
+    },
+    {
+      "id": "comma-johanneum",
+      "ref": "1 John 5:7–8",
+      "class": "addition",
+      "status": "queued",
+      "english_collision": "KJV: three that bear record in heaven, the Father, the Word, and the Holy Ghost. ASV and most later English drop the heavenly witnesses.",
+      "hypothesis": "Latin residue that entered late Greek and then English. Confirm on Greek/Latin intake; do not decide from English alone.",
+      "control": "greek",
+      "confidence": "high"
+    },
+    {
+      "id": "acts-8-37",
+      "ref": "Acts 8:37",
+      "class": "omission",
+      "status": "queued",
+      "english_collision": "KJV has the eunuch's confession. Most later English skip from 8:36 to 8:38.",
+      "hypothesis": "TR / Western expansion vs shorter Alexandrian text. English collision is clean.",
+      "control": "greek",
+      "confidence": "high"
+    },
+    {
+      "id": "psalm-22-16",
+      "ref": "Psalm 22:16 (22:17 MT)",
+      "class": "substitution",
+      "status": "queued",
+      "english_collision": "KJV: 'they pierced my hands and my feet.' JPS 1917: 'like a lion, my hands and my feet.' Versification also shifts.",
+      "hypothesis": "כארו / כארי plus Christian vs Jewish English. Versification residue on the side.",
+      "control": "hebrew+greek",
+      "confidence": "medium"
+    },
+    {
+      "id": "enoch-jude",
+      "ref": "1 Enoch / Jude 14–15",
+      "class": "canon",
+      "status": "queued",
+      "english_collision": "Jude in every English NT quotes Enoch as prophecy. 1 Enoch is absent from KJV, JPS, and most Protestant/Catholic tables of contents; present in the Ethiopian canon.",
+      "hypothesis": "Canon residue, not a verse variant. English NT still carries the quotation after the book left the Western list.",
+      "control": "english+ethiopic",
+      "confidence": "high"
+    },
+    {
+      "id": "kjv-apocrypha",
+      "ref": "KJV 1611 Apocrypha",
+      "class": "canon",
+      "status": "queued",
+      "english_collision": "1611 KJV bound Wisdom, Sirach, 1–2 Maccabees, and the rest between the testaments. Later Protestant printings often omit the section entirely.",
+      "hypothesis": "Print-history residue. Douay keeps a related set as deuterocanon. Compare on English intake before Greek/Latin.",
+      "control": "english",
+      "confidence": "high"
+    }
+  ]
+}

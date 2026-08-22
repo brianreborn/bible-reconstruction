@@ -1,0 +1,136 @@
+{
+  "id": "deut-32-8-9",
+  "ref": "Deuteronomy 32:8–9",
+  "title": "The allotment of the nations",
+  "corpus": "Song of Moses (Deuteronomy 32)",
+  "status": "ready",
+  "confidence": {
+    "grade": "high",
+    "label": "High at the crux",
+    "rationale": "The Masoretic 'sons of Israel' is the easier, later reading. Independent Hebrew (Qumran) and Greek (Old Greek) witnesses preserve 'sons of God / angels of God.' The change is theologically motivated and well paralleled at 32:43."
+  },
+  "summary": "Printed Bibles that follow the medieval Hebrew text say the Most High fixed the nations' borders by the number of Israel's sons. Older recoverable Hebrew said he fixed them by the number of the sons of God — a divine council. Verse 9 then names YHWH's own portion: Israel.",
+  "now": [
+    {
+      "id": "esv",
+      "label": "ESV",
+      "family": "Protestant, MT-based",
+      "text": "When the Most High gave to the nations their inheritance,\nwhen he divided mankind,\nhe fixed the borders of the peoples\naccording to the number of the [[crux]]sons of Israel[[/crux]].\nBut the LORD's portion is his people,\nJacob his allotted heritage.",
+      "note": "Main text follows the Masoretic tradition. A footnote reports the Dead Sea Scrolls and Septuagint reading 'sons of God.'"
+    },
+    {
+      "id": "jps",
+      "label": "JPS Tanakh (1985)",
+      "family": "Jewish, MT-based",
+      "text": "When the Most High gave nations their homes\nAnd set the divisions of man,\nHe fixed the boundaries of peoples\nIn relation to [[crux]]Israel's numbers[[/crux]].\nFor the LORD's portion is His people,\nJacob His own allotment.",
+      "note": "Translates the received Hebrew. The seventy descendants of Jacob (Deut 10:22; Gen 46:27 MT) are the usual explanation of 'Israel's numbers.'"
+    },
+    {
+      "id": "nrsvue",
+      "label": "NRSVUE",
+      "family": "Ecumenical, eclectic",
+      "text": "When the Most High apportioned the nations,\nwhen he divided humankind,\nhe fixed the boundaries of the peoples\naccording to the number of the [[crux]]gods[[/crux]];\nthe LORD's own portion was his people,\nJacob his allotted share.",
+      "note": "Adopts the Qumran / Greek tradition in the main text. Footnote: Q Ms, Gk Tg; MT 'the Israelites.'"
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "mt",
+      "label": "Masoretic Text",
+      "siglum": "MT",
+      "date": "Consonantal text stabilized by late antiquity; vocalized medieval manuscripts (Aleppo, Leningrad 1008/9 CE)",
+      "language": "Hebrew",
+      "original": "בְּהַנְחֵל עֶלְיוֹן גּוֹיִם\nבְּהַפְרִידוֹ בְּנֵי אָדָם\nיַצֵּב גְּבֻלֹת עַמִּים\nלְמִסְפַּר [[crux]]בְּנֵי יִשְׂרָאֵל[[/crux]]\nכִּי חֵלֶק יְהוָה עַמּוֹ\nיַעֲקֹב חֶבֶל נַחֲלָתוֹ",
+      "english": "When Elyon gave the nations their inheritance,\nwhen he separated the sons of humankind,\nhe fixed the boundaries of the peoples\naccording to the number of the [[crux]]sons of Israel[[/crux]].\nFor YHWH's portion is his people,\nJacob the lot of his inheritance.",
+      "note": "Shared with the Samaritan Pentateuch and the Peshitta at the crux. This is the Bible most synagogue and church printings still rest on."
+    },
+    {
+      "id": "dss",
+      "label": "Dead Sea Scrolls",
+      "siglum": "DSS",
+      "date": "4QDeutj (4Q37) and 4QDeutq (4Q44), roughly 1st century BCE – 1st century CE",
+      "language": "Hebrew",
+      "original": "…יצב גבולות עמים\nלמספר [[crux]]בני אלהים[[/crux]]\nכי חלק יהוה עמו…",
+      "english": "…he fixed the boundaries of the peoples\naccording to the number of the [[crux]]sons of God[[/crux]].\nFor YHWH's portion is his people…",
+      "note": "4QDeutj attests בני אלהים (some editors read a shorter בני אל at this or a sister fragment). 4QDeutq belongs to the same non-Masoretic tradition. Neither preserves ישראל at the crux. The surrounding lines, where extant, agree with the rest of the verse."
+    },
+    {
+      "id": "lxx",
+      "label": "Old Greek (Septuagint)",
+      "siglum": "LXX",
+      "date": "Pentateuch translated in Alexandria, 3rd century BCE; later copies sometimes revised toward MT",
+      "language": "Greek",
+      "original": "ὅτε διεμέριζεν ὁ ὕψιστος ἔθνη\nὡς διέσπειρεν υἱοὺς Αδαμ\nἔστησεν ὅρια ἐθνῶν\nκατὰ ἀριθμὸν [[crux]]ἀγγέλων θεοῦ[[/crux]]\nκαὶ ἐγενήθη μερὶς κυρίου λαὸς αὐτοῦ\nΙακωβ σχοίνισμα κληρονομίας αὐτοῦ",
+      "english": "When the Most High was apportioning nations,\nas he scattered Adam's sons,\nhe set the boundaries of nations\naccording to the number of the [[crux]]angels of God[[/crux]].\nAnd the Lord's portion became his people;\nJacob the measured share of his inheritance.",
+      "note": "Most Greek manuscripts: ἀγγέλων θεοῦ. A minority (including some Hexaplaric witnesses) read υἱῶν θεοῦ, 'sons of God.' Both disagree with MT. 'Angels' is best read as a Greek interpretive rendering of Hebrew בני אלהים, not as a separate original."
+    }
+  ],
+  "earliest_recoverable": {
+    "english": "When Elyon gave the nations their inheritance,\nwhen he separated the sons of humankind,\nhe fixed the boundaries of the peoples\naccording to the number of the [[crux]]sons of God[[/crux]].\nFor YHWH's portion is his people,\nJacob the lot of his inheritance.",
+    "hebrew_model": "לְמִסְפַּר בְּנֵי אֵל / בְּנֵי אֱלֹהִים",
+    "claim": "The earliest recoverable Hebrew at the crux is בני אל or בני אלהים, not בני ישראל.",
+    "not_claimed": "This is not the autograph of the Song of Moses. It is the oldest wording the surviving witnesses still let us reconstruct."
+  },
+  "why_it_changed": [
+    "Benei Yisrael ('sons of Israel') is the theologically safer reading. It removes a council of gods from a verse about how the world was ordered.",
+    "The change is small on the page — אלהים to ישראל — and large in the cosmology. Scribes protecting monotheism had a motive; scribes inventing polytheism in a sacred song did not.",
+    "The 'seventy sons of Israel who went down to Egypt' explanation (Deut 10:22; Gen 46:27 MT) looks like a later attempt to make the received Hebrew make sense. In the older reading, seventy is the traditional number of nations and of El's sons in West Semitic lore.",
+    "The same poem's ending (32:43) shows the same pattern: Qumran and Greek keep 'gods / sons of God'; the Masoretic line is shorter and safer. See the companion unit."
+  ],
+  "esoteric": [
+    {
+      "tradition": "Ugarit and the West Semitic council",
+      "text": "At Ugarit, El is father of the bn ilm, the sons of El. Athirat is mother of seventy sons. Deuteronomy 32's older Hebrew speaks that language: Elyon allots the nations to the sons of God; YHWH receives Israel.",
+      "note": "This is comparative religion, not a Qumran citation. It explains why the older reading is at home in the Late Bronze / Iron Age Levant, and why later scribes flinched."
+    },
+    {
+      "tradition": "Jewish midrash, against the printed consonants",
+      "text": "Pirkei de-Rabbi Eliezer and related traditions still say the Holy One assigned the nations to seventy angels, then took Israel as his own lot — using Deuteronomy 32:8–9 as the prooftext. The midrash remembers the Greek/Qumran cosmology even when the Masoretic verse on the page does not mention angels.",
+      "note": "Inner tradition here is not 'hidden code.' It is a memory of a reading the outer letters no longer carry."
+    },
+    {
+      "tradition": "Guardian angels of the nations",
+      "text": "Daniel 10's princes of Persia and Greece, Sirach 17:17 ('he appointed a ruler for every nation, but Israel is the Lord's own portion'), and later Christian angelology all inhabit this map: nations have heavenly patrons; Israel belongs to the Most High.",
+      "note": "Once 'sons of God' is translated 'angels,' the old council becomes an angelic bureaucracy. That is already happening in the Septuagint itself."
+    },
+    {
+      "tradition": "Psalm 82 as the inner courtroom",
+      "text": "Psalm 82 puts God in the council of El and judges the gods of the nations for misrule. Read beside the older Deuteronomy 32:8–9, the psalm is the lawsuit that follows the allotment.",
+      "note": "Reception, not a manuscript of Deuteronomy. It shows how the divine-council frame stayed alive in the Psalter after the Song of Moses was recensionally tamed."
+    }
+  ],
+  "gaps": [
+    "No autograph of the Song of Moses survives. 'Earliest recoverable' is not 'first performance.'",
+    "Whether Elyon and YHWH are two figures (El allots; YHWH receives) or poetic names for one God is still argued. The older wording allows the distinction; it does not force a later doctrine.",
+    "The exact Qumran spelling (בני אל vs בני אלהים vs בני אלוהים) is a sub-variant inside the same older tradition. Both stand against ישראל.",
+    "J, E, D, P are literary models for the Pentateuch as a whole. They are not parchment sources for this crux."
+  ],
+  "stemma": {
+    "nodes": [
+      { "id": "song", "label": "Song of Moses\nearliest recoverable", "kind": "reconstructed" },
+      { "id": "bnyel", "label": "בני אל / בני אלהים\nsons of God", "kind": "reconstructed" },
+      { "id": "dss", "label": "4QDeutj / 4QDeutq", "kind": "witness" },
+      { "id": "lxx", "label": "Old Greek\nangels / sons of God", "kind": "witness" },
+      { "id": "rev", "label": "Theological recension\nבני ישראל", "kind": "change" },
+      { "id": "mt", "label": "Masoretic / Samaritan / Peshitta", "kind": "witness" },
+      { "id": "now", "label": "Most modern Bibles\n(with footnotes in some)", "kind": "now" }
+    ],
+    "edges": [
+      { "from": "song", "to": "bnyel" },
+      { "from": "bnyel", "to": "dss" },
+      { "from": "bnyel", "to": "lxx" },
+      { "from": "bnyel", "to": "rev" },
+      { "from": "rev", "to": "mt" },
+      { "from": "mt", "to": "now" }
+    ]
+  },
+  "related": ["deut-32-43"],
+  "sources": [
+    "Emanuel Tov, Textual Criticism of the Hebrew Bible",
+    "Eugene Ulrich, The Biblical Qumran Scrolls",
+    "TheTorah.com, 'The Sons of Israel or God? Deuteronomy 32:8' (Mark Leuchter / editorial)",
+    "Michael S. Heiser, 'Deuteronomy 32:8 and the Sons of God'",
+    "DJD XIV (Qumran Cave 4: Deuteronomy)",
+    "NETS Deuteronomy (Melvin K. H. Peters)"
+  ]
+}

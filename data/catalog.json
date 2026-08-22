@@ -1,0 +1,57 @@
+{
+  "title": "Reconstruction Atlas",
+  "tagline": "How the Bible is now, how it has been, and the earliest form we can still recover.",
+  "passages": [
+    {
+      "id": "deut-32-8-9",
+      "file": "deut-32-8-9.json",
+      "ref": "Deuteronomy 32:8–9",
+      "title": "The allotment of the nations",
+      "status": "ready",
+      "hook": "The Most High divides the nations by Israel’s census — or by the number of the sons of God."
+    },
+    {
+      "id": "deut-32-43",
+      "file": "deut-32-43.json",
+      "ref": "Deuteronomy 32:43",
+      "title": "Let all the gods worship him",
+      "status": "ready",
+      "hook": "Hebrews quotes a line most Protestant Old Testaments no longer print."
+    },
+    {
+      "id": "jeremiah-editions",
+      "ref": "Jeremiah",
+      "title": "Two books of Jeremiah",
+      "status": "queued",
+      "hook": "Greek Jeremiah is about an eighth shorter, with a different chapter order. Two editions circulated."
+    },
+    {
+      "id": "gen-1-2",
+      "ref": "Genesis 1–2",
+      "title": "Two beginnings",
+      "status": "queued",
+      "hook": "A seven-day cosmos and a garden tale stand side by side, not as a copyist error."
+    },
+    {
+      "id": "psalm-22-16",
+      "ref": "Psalm 22:16",
+      "title": "Pierced, or like a lion",
+      "status": "queued",
+      "hook": "One letter decides whether the verse reads as crucifixion or as a lion at the hands."
+    },
+    {
+      "id": "mark-16",
+      "ref": "Mark 16:9–20",
+      "title": "The ending that grew",
+      "status": "queued",
+      "hook": "The oldest Greek copies of Mark stop at 16:8. Later Bibles keep going."
+    },
+    {
+      "id": "enoch-jude",
+      "ref": "1 Enoch / Jude 14–15",
+      "title": "A book that left the canon",
+      "status": "queued",
+      "hook": "Jude quotes Enoch as prophecy. Qumran copied it. Ethiopia kept it. Most Bibles did not."
+    }
+  ]
+}

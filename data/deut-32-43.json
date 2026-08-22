@@ -1,0 +1,129 @@
+{
+  "id": "deut-32-43",
+  "ref": "Deuteronomy 32:43",
+  "title": "Let all the gods worship him",
+  "corpus": "Song of Moses (Deuteronomy 32)",
+  "status": "ready",
+  "confidence": {
+    "grade": "high",
+    "label": "High that MT is shorter and secondary",
+    "rationale": "4QDeutq and the Old Greek independently preserve a longer poetic ending that still addresses the heavens and the gods. The Masoretic verse is truncated, and 'sons' has become 'servants.' Hebrews 1:6 quotes the Greek line most English Old Testaments omit."
+  },
+  "summary": "The Song of Moses ends three different ways. Qumran calls the gods to bow. Greek doubles the couplet and turns gods into sons and angels. The medieval Hebrew has nations praise, servants instead of sons, and no gods on stage. A New Testament citation still hears the longer ending.",
+  "now": [
+    {
+      "id": "esv",
+      "label": "ESV",
+      "family": "Protestant, MT-based",
+      "text": "[[crux]]Rejoice with him, O heavens; bow down to him, all gods[[/crux]],\nfor he avenges the blood of his children\nand takes vengeance on his adversaries.\nHe repays those who hate him\nand cleanses his people's land.",
+      "note": "ESV here is unusually bold: it prints a Qumran/LXX-shaped reconstruction in the main text, not the shorter MT. Many other Protestant Bibles do not."
+    },
+    {
+      "id": "kjv",
+      "label": "KJV",
+      "family": "Protestant, MT-based",
+      "text": "[[crux]]Rejoice, O ye nations, with his people[[/crux]]:\nfor he will avenge the blood of his servants,\nand will render vengeance to his adversaries,\nand will be merciful unto his land, and to his people.",
+      "note": "This is the Masoretic ending as English-speaking churches inherited it: no heavens, no gods, 'servants' not 'sons.'"
+    },
+    {
+      "id": "lxx-now",
+      "label": "Orthodox / NETS-shaped Greek",
+      "family": "Eastern Christian, LXX-based",
+      "text": "[[crux]]Be glad, O heavens, with him,\nand let all the sons of God worship him.\nBe glad, O nations, with his people,\nand let all the angels of God prevail with him.[[/crux]]\nFor he will avenge the blood of his sons…",
+      "note": "Churches that chant the Septuagint still hear the council. Hebrews 1:6 is quoting this world, not the KJV's."
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "mt",
+      "label": "Masoretic Text",
+      "siglum": "MT",
+      "date": "Medieval vocalized Hebrew; shorter ending already in the proto-MT stream",
+      "language": "Hebrew",
+      "original": "[[crux]]הַרְנִינוּ גוֹיִם עַמּוֹ[[/crux]]\nכִּי דַם־עֲבָדָיו יִקּוֹם\nוְנָקָם יָשִׁיב לְצָרָיו\nוְכִפֶּר אַדְמָתוֹ עַמּוֹ",
+      "english": "[[crux]]Acclaim, O nations, his people[[/crux]],\nfor he will avenge the blood of his servants,\nand take vengeance on his adversaries,\nand make atonement for his land, his people.",
+      "note": "Four cola. The heavens/gods couplet is gone. 'Sons' has become 'servants.' Samaritan Pentateuch agrees with MT here."
+    },
+    {
+      "id": "dss",
+      "label": "4QDeutq (4Q44)",
+      "siglum": "DSS",
+      "date": "Late Second Temple Hebrew manuscript of the Song",
+      "language": "Hebrew",
+      "original": "[[crux]]הרנינו שמים עמו\nוהשתחוו לו כל אלהים[[/crux]]\nכי דם בניו יקום\nונקם ישיב לצריו\nלמשנאיו ישלם\nויכפר אדמת עמו",
+      "english": "[[crux]]Rejoice, O heavens, with him,\nand bow down to him, all you gods.[[/crux]]\nFor he will avenge the blood of his sons,\nand take vengeance on his adversaries.\nHe will repay those who hate him,\nand atone for the land of his people.",
+      "note": "Six cola. The address is to heaven and to the gods. 'Sons,' not 'servants.' Psalm 97:7 ('worship him, all you gods') looks like a cousin of this couplet."
+    },
+    {
+      "id": "lxx",
+      "label": "Old Greek (Septuagint)",
+      "siglum": "LXX",
+      "date": "Greek translation of a longer Hebrew ending, later slightly doubled in transmission",
+      "language": "Greek",
+      "original": "[[crux]]εὐφράνθητε οὐρανοί ἅμα αὐτῷ\nκαὶ προσκυνησάτωσαν αὐτῷ πάντες υἱοὶ θεοῦ\nεὐφράνθητε ἔθνη μετὰ τοῦ λαοῦ αὐτοῦ\nκαὶ ἐνισχυσάτωσαν αὐτῷ πάντες ἄγγελοι θεοῦ[[/crux]]",
+      "english": "[[crux]]Rejoice, O heavens, with him,\nand let all the sons of God worship him.\nRejoice, O nations, with his people,\nand let all the angels of God strengthen themselves in him.[[/crux]]",
+      "note": "Eight cola in the full verse. Greek appears to preserve both a 'heavens / sons of God' pair and a 'nations / angels' pair. Some of that doubling is inner-Greek; the agreement with 4QDeutq on heavens-and-gods is not."
+    }
+  ],
+  "earliest_recoverable": {
+    "english": "Rejoice, O heavens, with him,\nand bow down to him, [[crux]]all you gods[[/crux]].\nFor he will avenge the blood of his sons,\nand take vengeance on his adversaries.\nHe will repay those who hate him,\nand atone for the land of his people.",
+    "hebrew_model": "הרנינו שמים עמו / והשתחוו לו כל אלהים — close to 4QDeutq",
+    "claim": "The Song originally called the heavens and the gods to worship. The Masoretic ending is a shortened, theologically safer recension. Greek is longer still, and partly interpretive ('angels').",
+    "not_claimed": "We do not print a single 'original colometry' as dogma. 4QDeutq is the best Hebrew we have for the missing couplet; LXX is a sister, not a photocopy."
+  },
+  "why_it_changed": [
+    "Same motive as 32:8: remove other gods from a YHWH poem.",
+    "A likely mechanical aid: skipping from one 'rejoice' to the next (homoioarcton) can drop a couplet. Theology and accident can work together.",
+    "'Sons' to 'servants' continues the flattening: the people are vassals, not the deity's children beside other divine sons.",
+    "The New Testament still knows the longer Greek line. Hebrews 1:6, 'Let all God's angels worship him,' is widely taken as a citation of Deuteronomy 32:43 LXX (or the Greek Ode of Moses). That is a living fossil of the older ending inside the Christian canon."
+  ],
+  "esoteric": [
+    {
+      "tradition": "Hebrews 1:6",
+      "text": "When the New Testament writer wants the angels to worship the Son, the prooftext is not a Masoretic verse. It is the Greek Song of Moses. The 'inner' Christian reading depends on an 'outer' text most Protestant Old Testaments no longer print.",
+      "note": "This is the cleanest demonstration of the whole project: canon, citation, and recension do not line up."
+    },
+    {
+      "tradition": "Psalm 97:7",
+      "text": "All worshipers of images are put to shame… worship him, all you gods. The psalm keeps the command the Masoretic Song dropped.",
+      "note": "Inner-biblical reception of the same couplet-type."
+    },
+    {
+      "tradition": "Angels as the renamed gods",
+      "text": "Greek turns אלהים into υἱοὶ θεοῦ and then ἄγγελοι θεοῦ. The council is not deleted; it is ordained. Later Jewish and Christian mysticism (the seventy princes, the national angels, the celestial liturgy) lives in that renamed court.",
+      "note": "Esoteric here means: the later heavens are built out of a translation choice."
+    }
+  ],
+  "gaps": [
+    "The precise Hebrew behind every Greek colon is not recoverable. Some LXX pluses are likely inner-Greek expansion.",
+    "We cannot date the shortening of the proto-MT ending more tightly than 'before the medieval manuscripts, and after the Qumran copy.'",
+    "Whether 'gods' in 4QDeutq were already heard as 'angels' by the scroll's users is a reception question, not a letter on the leather."
+  ],
+  "stemma": {
+    "nodes": [
+      { "id": "song", "label": "Song ending\nheavens + gods", "kind": "reconstructed" },
+      { "id": "dss", "label": "4QDeutq\n6 cola, כל אלהים", "kind": "witness" },
+      { "id": "lxx", "label": "Old Greek\nlonger, sons/angels", "kind": "witness" },
+      { "id": "rev", "label": "Shortening + servants", "kind": "change" },
+      { "id": "mt", "label": "Masoretic / Samaritan", "kind": "witness" },
+      { "id": "heb", "label": "Hebrews 1:6\nquotes the Greek line", "kind": "now" },
+      { "id": "kjv", "label": "KJV-type Bibles\nomit the gods", "kind": "now" }
+    ],
+    "edges": [
+      { "from": "song", "to": "dss" },
+      { "from": "song", "to": "lxx" },
+      { "from": "song", "to": "rev" },
+      { "from": "rev", "to": "mt" },
+      { "from": "mt", "to": "kjv" },
+      { "from": "lxx", "to": "heb" }
+    ]
+  },
+  "related": ["deut-32-8-9"],
+  "sources": [
+    "Carmel McCarthy, Deuteronomy (BHQ)",
+    "TheTorah.com, 'Acclaim, O Nations – Deuteronomy 32:43'",
+    "4QDeutq (4Q44) in DJD and Ulrich, The Biblical Qumran Scrolls",
+    "Hebrews 1:6 and the Greek Ode of Moses (Odes 2:43)",
+    "Psalm 97:7 as inner-biblical parallel"
+  ]
+}
