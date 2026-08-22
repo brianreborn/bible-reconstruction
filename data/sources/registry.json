@@ -1,11 +1,13 @@
 {
   "working_language": "english",
-  "control_languages": ["greek", "hebrew"],
-  "parked_languages": ["aramaic", "syriac", "chaldean"],
+  "control_languages": ["greek", "hebrew", "aramaic", "chaldean", "syriac", "phoenician", "cuneiform"],
+  "parked_languages": [],
   "notes": {
     "english": "Working language. Collide public-domain English Bibles verse by verse. Apparent error in English is a pointer, not the verdict.",
-    "greek_hebrew": "Control languages. Used to classify an English collision as inner-English style, source-text fork (TR/CT, MT/LXX/DSS), or canon.",
-    "chaldean": "In older English (KJV headings, lexicons) 'Chaldee' usually means Biblical Aramaic (Daniel, Ezra) and sometimes Targum. It is not a third Semitic original beside Hebrew and Aramaic. Parked until the Aramaic desk is open."
+    "greek_hebrew": "Greek and Hebrew remain control languages for most verse collisions (TR/CT, MT/LXX/DSS).",
+    "aramaic": "Aramaic is in the Bible itself (Daniel, Ezra, a line of Jeremiah, Genesis 31:47), in the Targums, in Qumran, and in the speech-world of the New Testament. It is not a later shelf.",
+    "chaldean": "Chaldean stays on the desk as two related things that must not be collapsed: (1) KJV 'Chaldee' = the Biblical Aramaic blocks; (2) the Chaldeans / Kasdim of Babylon, whose imperial literature is Akkadian cuneiform. Both matter.",
+    "phoenician_cuneiform": "Phoenician and cuneiform are a pair, not one script. Phoenician is the Canaanite sister of Hebrew (Paleo-Hebrew is a Phoenician-type alphabet). Cuneiform here means Akkadian (Babylon/Assyria) and Ugaritic alphabetic cuneiform — the Canaanite cuneiform neighbor of Phoenician, already in play for Deuteronomy 32's sons of El."
   },
   "sources": [
     {
@@ -151,6 +153,69 @@
       "status": "wanted",
       "license": "check-on-intake",
       "role": "Diplomatic Masoretic control. Morphology layers may be licensed; consonants are the usual public working text."
+    },
+    {
+      "id": "biblical-aramaic",
+      "label": "Biblical Aramaic (Daniel, Ezra, Jer 10:11)",
+      "lang": "aramaic",
+      "kind": "aramaic",
+      "status": "wanted",
+      "license": "with-hebrew-intake",
+      "role": "Not a version: it is scripture in Aramaic. KJV apparatuses often label these blocks Chaldee."
+    },
+    {
+      "id": "targums",
+      "label": "Targum Onkelos / Jonathan / Palestinian",
+      "lang": "aramaic",
+      "kind": "aramaic",
+      "status": "wanted",
+      "license": "check-on-intake",
+      "role": "Aramaic reception of the Hebrew Bible. Residue of how the consonants were heard in the synagogue."
+    },
+    {
+      "id": "peshitta",
+      "label": "Peshitta",
+      "lang": "syriac",
+      "kind": "aramaic",
+      "status": "wanted",
+      "license": "public-domain-ish",
+      "role": "Syriac (Christian Aramaic) Bible. OT often tracks a Hebrew text; NT is an early version witness."
+    },
+    {
+      "id": "chaldee-kjv-blocks",
+      "label": "KJV Chaldee blocks + Kasdim context",
+      "lang": "chaldean",
+      "kind": "chaldean",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "Keep KJV 'Chaldee' labels beside the Aramaic letters, and keep the Chaldean/Babylonian people distinct from that language name."
+    },
+    {
+      "id": "phoenician-inscriptions",
+      "label": "Phoenician inscriptions + Paleo-Hebrew",
+      "lang": "phoenician",
+      "kind": "phoenician",
+      "status": "wanted",
+      "license": "public-domain",
+      "role": "Alphabet and early Hebrew letter-forms. Sister language to Biblical Hebrew; the script the Torah was first written in."
+    },
+    {
+      "id": "ugaritic",
+      "label": "Ugaritic (Ras Shamra / alphabetic cuneiform)",
+      "lang": "cuneiform",
+      "kind": "cuneiform",
+      "status": "wanted",
+      "license": "check-on-intake",
+      "role": "Canaanite cuneiform next door to Phoenician. El, the bn ilm, seventy sons — the comparative desk for Deuteronomy 32."
+    },
+    {
+      "id": "akkadian",
+      "label": "Akkadian cuneiform (Babylon / Assyria)",
+      "lang": "cuneiform",
+      "kind": "cuneiform",
+      "status": "wanted",
+      "license": "check-on-intake",
+      "role": "Chaldean imperial literature: flood, creation, law, exile-era archives. Not Aramaic. Not Hebrew. Still residue for how Genesis–Kings and Daniel sit in the world."
     }
   ]
 }

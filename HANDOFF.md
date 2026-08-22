@@ -7,9 +7,10 @@ In-progress Reconstruction Atlas. Not a finished design. Requirements still inco
 A local workbench to reconstruct earlier recoverable layers of the Bible using:
 
 - **English** as the working language (public-domain Bibles collided verse by verse)
-- **Greek and Hebrew** as control languages
+- **Greek, Hebrew, Aramaic, Chaldean, Phoenician, cuneiform** as the court — not parked
+- **Chaldean** is both KJV “Chaldee” (Biblical Aramaic blocks) and the Babylonian/Kasdim world (Akkadian). Do not collapse them.
+- **Phoenician-cuneiform** is a pair: Paleo-Hebrew/Phoenician alphabet beside Ugaritic alphabetic cuneiform and Akkadian.
 - **Residue**: evidence that wording, a verse, a book, or a meaning used to be in a Bible and later moved
-- Aramaic / Syriac / “Chaldee” parked for later
 
 ## Ready in-repo
 

@@ -31,9 +31,14 @@ Opening `index.html` as a file will fail: the atlas loads JSON with `fetch`.
 
 ## Languages
 
+None of these are parked.
+
 - **English** — working language. Public-domain Bibles are collided verse by verse. Apparent error is a pointer.
-- **Greek and Hebrew** — control languages. They classify an English collision (style vs source-text vs canon).
-- **Aramaic / Syriac / Chaldee** — parked. In older English, “Chaldee” usually means Biblical Aramaic, not a third original.
+- **Greek and Hebrew** — primary verse-collision court (TR/CT, MT/LXX/DSS).
+- **Aramaic** — already inside the Bible (Daniel, Ezra), plus Targums and Qumran.
+- **Chaldean** — two desks that stay distinct: KJV “Chaldee” (Biblical Aramaic blocks) and the Chaldeans/Kasdim of Babylon (Akkadian cuneiform world).
+- **Phoenician and cuneiform** — a pair, not one script. Phoenician / Paleo-Hebrew alphabet; Ugaritic alphabetic cuneiform; Akkadian of Babylon and Assyria.
+- **Syriac** — Peshitta, as a Christian Aramaic version.
 
 ## Residue
 

@@ -65,7 +65,8 @@ function renderHome(catalog) {
       <p class="lead">${escapeHtml(catalog.tagline)} Outer witnesses first. Inner traditions second. No invented verses.</p>
       <div class="layers">
         <span class="chip">English first</span>
-        <span class="chip">Greek / Hebrew as court</span>
+        <span class="chip">Greek · Hebrew · Aramaic</span>
+        <span class="chip">Chaldean · Phoenician · cuneiform</span>
         <span class="chip">Residue</span>
       </div>
     </section>
@@ -80,13 +81,13 @@ function renderMethod() {
       <h1>Two technologies, one desk</h1>
       <p>There is no single autograph of “the Bible.” What we can still do is reconstruct the earliest recoverable layer of a given passage, show how the printed Bible got there, and keep the inner reading traditions in view without letting them forge letters.</p>
       <h2>English first</h2>
-      <p>Public-domain English Bibles are the working language. When KJV, Geneva, Douay, Young, ASV, JPS 1917, and Brenton collide, that collision is a pointer. We do not “correct” the English from memory. We name the collision, then open Greek and Hebrew as the court.</p>
-      <p>Aramaic, Syriac, and what older English called Chaldee (usually Biblical Aramaic in Daniel and Ezra, sometimes Targum) matter. They are parked until the English, Greek, and Hebrew desks are loaded.</p>
+      <p>Public-domain English Bibles are the working language. When KJV, Geneva, Douay, Young, ASV, JPS 1917, and Brenton collide, that collision is a pointer. We do not “correct” the English from memory. We name the collision, then open the source languages as the court.</p>
+      <p>The court is not only Greek and Hebrew. Aramaic is already inside the Bible (Daniel, Ezra). Chaldean stays as both KJV “Chaldee” (those Aramaic blocks) and the Chaldeans of Babylon (Akkadian cuneiform world). Phoenician and cuneiform are a pair: Phoenician/Paleo-Hebrew alphabet beside Ugaritic alphabetic cuneiform and Akkadian. None of these are parked.</p>
       <table>
         <thead><tr><th>Layer</th><th>Question</th></tr></thead>
         <tbody>
           <tr><td>Now</td><td>What do common printed Bibles actually say?</td></tr>
-          <tr><td>Has been</td><td>What do older English and the MT, DSS, LXX, SP, TR, and quotations attest?</td></tr>
+          <tr><td>Has been</td><td>What do older English, MT, DSS, LXX, SP, TR, Targum, Peshitta, and the Phoenician / cuneiform neighbors attest?</td></tr>
           <tr><td>Residue</td><td>Where did wording, a verse, a book, or a meaning used to be — and later move?</td></tr>
           <tr><td>Earliest recoverable</td><td>What older form is best supported, and how confident are we?</td></tr>
           <tr><td>Inner tradition</td><td>How did later readers inhabit, rename, or remember the crux?</td></tr>
@@ -153,8 +154,13 @@ function renderSources(registry) {
   setNav("sources");
   const groups = [
     ["english", "Working language — English"],
-    ["greek", "Control — Greek"],
-    ["hebrew", "Control — Hebrew"],
+    ["greek", "Greek"],
+    ["hebrew", "Hebrew"],
+    ["aramaic", "Aramaic"],
+    ["syriac", "Syriac"],
+    ["chaldean", "Chaldean"],
+    ["phoenician", "Phoenician"],
+    ["cuneiform", "Cuneiform (Ugaritic / Akkadian)"],
   ];
   const blocks = groups
     .map(([lang, title]) => {
@@ -182,7 +188,9 @@ function renderSources(registry) {
       <h1>Sources we will feed</h1>
       <p>${escapeHtml(registry.notes.english)}</p>
       <p>${escapeHtml(registry.notes.greek_hebrew)}</p>
+      <p>${escapeHtml(registry.notes.aramaic)}</p>
       <p>${escapeHtml(registry.notes.chaldean)}</p>
+      <p>${escapeHtml(registry.notes.phoenician_cuneiform)}</p>
       ${blocks}
       <p>Drop projects in <code>incoming/</code> or send a path. Nothing in this table is downloaded until you feed it.</p>
     </article>`;
